@@ -1,0 +1,38 @@
+Features:
+User Authentication
+
+Students must sign up using their college email.
+Secure login system (OAuth, Google authentication, or college SSO).
+Note Uploading
+
+Upload handwritten notes in PDF or image format.
+Categorization based on subject, year, and faculty.
+Option to add descriptions and tags for easy search.
+Note Viewing & Downloading
+
+Any registered student can view/download notes.
+Search and filtering options (subject, faculty, year).
+User Interaction
+
+Like and comment on notes.
+Rating system to highlight quality notes.
+Moderation & Reporting
+
+Report inappropriate or low-quality notes.
+Admin/moderator approval system before notes go live.
+Profile & Dashboard
+
+Students can manage their uploaded notes.
+View analytics (downloads, likes, comments).
+Mobile-Friendly & Responsive Design
+
+Optimized for both desktop and mobile users.
+Admin Panel
+
+Manage users, reported notes, and content moderation.
+Suggested Tech Stack:
+Frontend: React.js or Next.js
+Backend: Node.js with Express or Django
+Database: MongoDB or PostgreSQL
+Storage: Firebase Storage or AWS S3
+Authentication: Firebase Auth, Auth0, or JWT-based authentication
