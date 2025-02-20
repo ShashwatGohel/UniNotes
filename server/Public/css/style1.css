@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap');
+
+body {
+    font-family: 'Lora', serif;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  padding-top: 2px;
+}
+
+.logo1{
+  width: 40px;
+  border-radius: 20px;
+}
+.navbar {
+  display: flex;
+  position: sticky;
+  align-items: center;
+  justify-content: space-between;
+  top: 0px;
+  background: rgb(19, 19, 19);
+  background-blend-mode: darken;
+  background-size: cover;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;;
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  gap: 20px; /* Adds space between <li> items */
+}
+
+.nav-list li {
+  margin-right: 20px;
+}
+
+.nav-list li:last-child {
+  margin-right: 0;
+}
+
+.nav-list li a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.3rem;
+  font-weight: 200;
+  padding-inline-start: 20px;
+  transition: color 0.3s ease-in-out;
+}
+
+.nav-list li a:hover {
+  color: #17bed0;
+  /* Change the color on hover */
+}
+
+.rightNav {
+  text-align: right;
+}
+
+#search {
+  padding: 8px;
+  font-size: 16px;
+  font-weight: 400;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  width: 500px;
+}
+
+.btn {
+  background-color: #17bed0;
+  color: #000;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.btn:hover {
+  background-color: #000;
+  /* Change the background color on hover */
+  color: #17bed0;
+}
+
+.home {
+  display: flex;  /* Enables Flexbox */
+  align-items: center; /* Vertically centers content */
+  max-width: fit-content;
+  justify-content: space-between; /* Ensures space between text and image */
+  margin: 0 auto; /* Centers the section horizontally */
+  padding: 20px;
+}
+
+.home-content {
+  flex: 1; /* Takes available space */
+  max-width: 50%; /* Prevents text from stretching too much */
+}
+.home-content {
+  padding-top: 10px;
+  padding-left: 100px;
+  width: 400px;
+}
+
+.home-content h3{
+  font-weight: 400;
+  font-size: 3.5rem;
+}
+.home-content h1 { /* Corrected Selector */
+  font-weight: 800;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 4rem; /* Increased Font Size */
+}
+
+.home-content h4{
+  font-weight: 400; 
+  font-size: 2rem;
+  width: 700px;
+}
+
+.home-image{
+  display: flex;
+  /* width: 50px; */
+  padding-left: 400px;
+}
+.home-image img{
+  width: 700px;
+  height: 600px;
+}
+
+/* Centering the "Explore by Category" heading */
+.categories{
+  padding-top: 100px;
+  text-align: center;
+  font-size: 2.3rem;
+  font-weight: 400;
+}
+
+
+/* Grid container styling */
+.category-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* 5 columns */
+  grid-template-rows: repeat(2, auto); /* 2 rows */
+  gap: 50px; /* Space between grid items */
+  padding: 30px;
+  max-width: 1000px;
+  margin: 90px; /* Centering */
+  padding-left: 80px;
+}
+
+/* Each category box */
+.category-box {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 20px;
+  padding-top: 20px;
+  padding-block: 55px;
+  transition: transform 0.3s ease-in-out;
+  width: 200px;
+  height: 200px;
+}
+
+/* Image inside category box */
+.category-box img {
+  width: 100%;
+  height: 100%; /* Fixed height */
+  object-fit: cover; /* Ensures images fit without distortion */
+  border-radius: 8px;
+}
+
+/* Category text */
+.category-box p {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Hover effect */
+.category-box:hover {
+  transform: scale(1.2); /* Slight zoom effect */
+   }  
+
+.pic {
+  background-color: #ffffff;
+  color: rgb(14, 13, 13);
+  border: 2px solid black;
+  font-weight: 500;
+  font-size: 1.3rem;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.pic:hover {
+  background-color: #ffffff;
+} 
+
