@@ -16,6 +16,9 @@ body {
   border-radius: 20px;
 }
 .navbar {
+  margin-left:140px;
+  margin-right:140px;
+  margin-top:40px;
   display: flex;
   position: sticky;
   align-items: center;
