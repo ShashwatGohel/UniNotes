@@ -1,0 +1,75 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* Header */
+header {
+    background: #007BFF;
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+/* Sections */
+section {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h2 {
+    color: #007BFF;
+    text-align: center;
+}
+
+/* How It Works Section */
+.how-it-works .steps {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.step {
+    background: #e9f5ff;
+    padding: 15px;
+    border-radius: 8px;
+    flex: 1;
+    margin: 10px;
+}
+
+/* Features */
+.features ul {
+    list-style: none;
+    padding: 0;
+}
+
+.features li {
+    background: #e9f5ff;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Contact */
+.contact a {
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #007BFF;
+    color: white;
+    margin-top: 40px;
+}
